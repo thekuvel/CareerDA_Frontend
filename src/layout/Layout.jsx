@@ -4,7 +4,7 @@ import Sidebar from "../components/sidebar/Sidebar.jsx"
 
 function Layout(){
     return(
-        <div className="mt-[20px] grid grid-cols-12 gap-[50px]">
+        <div className="m-[10px] mt-[20px] md:grid grid-cols-12 gap-[50px]">
 
             <Header/>
 

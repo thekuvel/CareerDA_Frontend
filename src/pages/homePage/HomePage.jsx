@@ -17,7 +17,7 @@ function HomePage(){
     },[0])
 
     return(
-        <div className="grid grid-cols-12 gap-[20px]">
+        <div className="grid md:grid-cols-12 gap-[20px]">
             {
                 jobs.map((job)=>(
                     <JobCard job={job} key={job._id}/>

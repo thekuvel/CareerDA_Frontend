@@ -13,7 +13,7 @@ function Header(){
     }
 
     return(
-        <div className="p-[20px] col-start-2 col-span-10 border rounded-[10px] border-[#D9D9D9] flex items-center justify-between">
+        <div className="mb-[10px] p-[20px] col-start-2 col-span-10 border rounded-[10px] border-[#D9D9D9] flex flex-col md:flex-row items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
                 <div className="w-[32px]">
                     <img src="/icons/careerdaIcon.png" alt="Creer D A icon." />

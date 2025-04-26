@@ -4,7 +4,7 @@ function JobCard({job}){
     // console.log(job);
     
     return(
-        <Link to={`/jd`} state={job} className="p-[20px] col-span-4 grid gap-[10px] border rounded-[10px] border-[#D9D9D9] col-span-4">
+        <Link to={`/jd`} state={job} className="p-[20px] col-span-4 grid gap-[10px] border rounded-[10px] border-[#D9D9D9]">
 
             <div className="flex items-center gap-[20px]">
                 <div className="w-[50px]">
