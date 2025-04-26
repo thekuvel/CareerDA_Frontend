@@ -1,0 +1,9 @@
+/* Fredoka font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap'); 
+
+/* Tailwind CSS */
+@import "tailwindcss";
+
+body {
+    font-family: 'Fredoka', sans-serif;
+  }
